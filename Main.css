@@ -1,0 +1,253 @@
+div.navbar{
+    background-color: deepskyblue;
+    min-height: 10vh;
+    border:0.2vh solid navy;
+    border-radius: 2vh;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+div.navbar h1{
+    font-family: sans-serif;
+    color: snow;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    cursor: context-menu;
+}
+div.navbar ul li{
+    font-family: sans-serif;
+    display: inline-block;
+    padding: 2vh;
+    margin-right: 1vh;
+}
+div.navbar a{
+    text-decoration: none;
+    color: snow;
+}
+div.navbar a:hover{
+    border: 0.3vh solid rgba(5, 155, 201, 0.993);
+    border-radius: 1.25vh;
+    font-size: 95%;
+}
+
+.Author{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: context-menu;
+}
+.AuthorImg{
+    margin: 1.5vh;
+    background-image: url(My_Photo.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22vw;
+    height: 22vw;
+    border-radius: 40vh;
+}
+.Info_Tools button{
+    font-size: 115%;
+    color: whitesmoke;
+    background-color: mediumorchid;
+    border-radius: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 2.5vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    cursor: grab;
+}
+.Info_Tools a{
+    text-decoration: none;
+}
+
+
+.Info_Tools button:hover{
+    background-color: mediumpurple;
+}
+.Info_Tools .Name{
+    font-family: serif;
+    font-size: 110%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: slateblue;
+    margin-left: 2.5vh;
+    
+}
+.Info_Tools .Job{
+    font-size: 105%;
+    text-align: center;
+    color: mediumpurple;
+    margin-bottom: 1vh;
+    margin-left: 2.5vh;
+}
+.ilgialanlarım{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: navy;
+    font-size: 115%;
+    margin: 5vh auto 2vh auto;
+}
+.Hobiler{
+    background-color: deepskyblue;
+    height: 50%;
+    margin: auto auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 2vh;
+    cursor: context-menu;
+
+}
+.Hobiler .Card{
+    text-align: center;
+    /* border: 0.4vh solid navy; */
+    border-radius: 0.50vh;
+    margin: 4vh 4vh;
+}
+#ikon1 i{
+    color: orange;
+}
+#ikon2 i{
+    color: palegreen;
+}
+#ikon3 i{
+    color: mediumvioletred;
+}
+#başlık{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-size: 125%;
+    font-family: bold;
+    color: darkblue;
+}
+#info{
+    color: whitesmoke;
+}
+.Tools{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh auto;
+    flex-direction: column;
+    border-radius: 0.5vh;
+    cursor: context-menu;
+    font-size: 90%;
+}
+#Tool #açıklama{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: black;
+    margin-top: 2vh;
+}
+#Tool #açıklama #cards{
+    border: 0.1vh solid black;
+    border-radius: 2vh;
+    width: 65vw;
+    height: 20vh;
+}
+#Tool img{
+    max-width: 12vw;
+    max-height: 12vh;
+    border-radius: 15vh;
+    margin-right: 2vw;
+}
+.Tools h2{
+    color: navy;
+}
+#Tool h4{
+    color: mediumblue;
+    font-family: sans-serif;
+}
+#Tool h3{
+    color: lightskyblue;
+    font-family: sans-serif;
+}
+#Tool p{
+    color: black;
+    font-family: sans-serif;
+}
+.ContectMe h2{
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+.ContectMe{
+    background-color: deepskyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vh;
+    margin-bottom: 2.5vh;
+    border: 1vw solid navy;
+    border-radius: 0.50vh;
+    font-size: 115%;
+}
+.ContectMe label{
+    color: whitesmoke;
+}
+
+.ContectMe .form #name{
+    border-radius: 0.61vh;
+    width: 40vw;
+    height: 3.5vh;
+    margin-bottom: 1.5vh;
+}
+.ContectMe .form #email{
+    border-radius: 0.61vh;
+    width: 40vw;
+    height: 3.5vh; 
+    margin-bottom: 1.5vh;
+}
+.ContectMe .form #textbox{
+    border-radius: 0.61vh;
+    width: 40vw;
+    height: 14vh;
+    margin-bottom: 1.5vh;
+}
+.ContectMe .form #buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 3vh;
+}
+#buttons #gönder{
+    width: 19.5vw;
+    height: 6vh;
+    background-color: slateblue;
+    cursor: pointer;
+    margin-right: 0.5vw;
+}
+#buttons #reset{
+    width: 19.5vw;
+    height: 6vh;
+    background-color: darkmagenta;
+    cursor: pointer;
+    margin-left: 0.5vw;
+}
+.socialmedia{
+    display: flex;
+    justify-content: center;
+    margin: 5vh auto;
+}
+.socialmedia .socialCard{
+    display: flex;
+    margin-right: 5vh;
+}
+.socialmedia .socialCard #instagram{
+    color: salmon;
+}
+.socialmedia .socialCard #facebook{
+    color: cornflowerblue;
+}
+.socialmedia .socialCard #linkedin{
+    color: seagreen;
+}
